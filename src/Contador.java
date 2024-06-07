@@ -1,12 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-class ParametrosInvalidosException extends Exception {
-    public ParametrosInvalidosException(String message) {
-        super(message);
-    }
-}
-
 public class Contador {
     @SuppressWarnings("resource")
     public static void main(String[] args) {
